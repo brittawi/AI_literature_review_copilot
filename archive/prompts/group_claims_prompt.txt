@@ -1,0 +1,18 @@
+You are analyzing research claims.
+
+Group the following claims into 3–5 themes.
+
+Return ONLY valid JSON in this format:
+{{
+  "themes": [
+    {{
+      "theme": "name",
+      "claims": [
+        "claim text"
+      ]
+    }}
+  ]
+}}
+
+Claims:
+{claims_text}
